@@ -1,0 +1,8 @@
+/**
+ * `@visx/vendor/internmap` (CommonJS)
+ * See upstream license: https://github.com/mbostock/internmap/blob/main/LICENSE
+ *
+ * This file only exists for tooling that doesn't work yet with package.json:exports
+ * by proxying through the CommonJS version.
+ */
+module.exports = require('./vendor-cjs/internmap/src/index.js');

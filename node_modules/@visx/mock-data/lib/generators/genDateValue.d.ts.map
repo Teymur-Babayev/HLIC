@@ -1,0 +1,1 @@
+{"version":3,"file":"genDateValue.d.ts","sourceRoot":"","sources":["../../src/generators/genDateValue.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,SAAS;IACxB,IAAI,EAAE,IAAI,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;CACf;AAED,MAAM,CAAC,OAAO,UAAU,YAAY,CAClC,MAAM,EAAE,MAAM;AACd,mDAAmD;AACnD,IAAI,CAAC,EAAE,MAAM;AACb,qCAAqC;AACrC,WAAW,CAAC,EAAE,MAAM,GACnB,SAAS,EAAE,CAQb"}

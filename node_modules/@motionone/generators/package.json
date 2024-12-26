@@ -1,0 +1,33 @@
+{
+  "name": "@motionone/generators",
+  "version": "10.17.0",
+  "description": "A collection of animation generators.",
+  "license": "MIT",
+  "author": "Matt Perry",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "types/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rimraf lib dist types && tsc -p . && rollup -c",
+    "test": "jest --coverage --config jest.config.js",
+    "dev": "concurrently -c blue,red -n tsc,rollup --kill-others \"tsc --watch -p . --preserveWatchOutput\" \"rollup --c --watch --no-watch.clearScreen\"",
+    "measure": "bundlesize"
+  },
+  "dependencies": {
+    "@motionone/types": "^10.17.0",
+    "@motionone/utils": "^10.17.0",
+    "tslib": "^2.3.1"
+  },
+  "bundlesize": [
+    {
+      "path": "./dist/size-glide.js",
+      "maxSize": "0.9 kB"
+    },
+    {
+      "path": "./dist/size-spring.js",
+      "maxSize": "0.5 kB"
+    }
+  ],
+  "gitHead": "2775786f4f0ba21cbf222d72a68263c7627c4825"
+}

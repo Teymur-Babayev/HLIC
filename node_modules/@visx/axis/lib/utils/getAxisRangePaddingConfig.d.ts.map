@@ -1,0 +1,1 @@
+{"version":3,"file":"getAxisRangePaddingConfig.d.ts","sourceRoot":"","sources":["../../src/utils/getAxisRangePaddingConfig.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,UAAU,CAAC;AAE3C,eAAO,MAAM,uBAAuB,IAAI,CAAC;AAEzC,MAAM,CAAC,OAAO,UAAU,yBAAyB,CAC/C,oBAAoB,GAAE,eAAe,CAAC,KAAK,CAAC,CAAC,cAAc,CAA2B;;;EAKvF"}

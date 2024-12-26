@@ -1,0 +1,36 @@
+{
+  "name": "@ably/msgpack-js",
+  "description": "msgpack encoder and decoder in pure javascript based on creationix/msgpack-js updated to match the new v5 specification with string support.",
+  "license": "Apache-2.0",
+  "version": "0.4.0",
+  "author": "Ably Real-time Ltd <support@ably.io>",
+  "contributors": [
+    "Tim Caswell <tim@creationix.com>",
+    "Chakrit Wichian <service@chakrit.net>"
+  ],
+  "repository": "ably-forks/msgpack-js",
+  "main": "msgpack.js",
+  "dependencies": {
+    "bops": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.2"
+  },
+  "jspm": {
+    "registry": "npm"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/9..latest",
+      "firefox/19..latest",
+      "chrome/25..latest",
+      "safari/latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  }
+}

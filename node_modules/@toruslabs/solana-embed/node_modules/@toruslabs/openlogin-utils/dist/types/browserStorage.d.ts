@@ -1,0 +1,18 @@
+import { IStorage } from "./utils";
+export declare class MemoryStore implements IStorage {
+    store: Record<string, string>;
+    getItem(key: string): string;
+    setItem(key: string, value: string): void;
+}
+export declare class BrowserStorage {
+    private static instance;
+    storage: IStorage;
+    private _storeKey;
+    private constructor();
+    static getInstance(key: string, storageKey?: "session" | "local"): BrowserStorage;
+    toJSON(): string;
+    resetStore(): Record<string, unknown>;
+    getStore(): Record<string, unknown>;
+    get<T>(key: string): T;
+    set<T>(key: string, value: T): void;
+}
